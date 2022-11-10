@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-       - master
+      - master
 
 
 
@@ -15,7 +15,7 @@ jobs:
         run: pwd 
 
       - name:'testing printing'
-      run: echo mostafa
+        run: echo mostafa
 
 
 
