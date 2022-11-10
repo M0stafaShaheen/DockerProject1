@@ -11,11 +11,9 @@ jobs:
 
 
     steps:
-      - name: 'testing github action'
-        run: pwd 
+      - name: 'prind folder content'
+        run: ls 
 
-      - name: 'testing printing'
-        run: echo mostafa
 
 
 
